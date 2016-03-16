@@ -1,0 +1,135 @@
+2016-02-09 10:40:05,286 [9] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hp.com/teams/USPS_CandI_CapturePortal/  target backup:PipelineBackup  source backup Pipeline
+2016-02-09 10:47:56,402 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,421 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,423 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,424 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,450 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,451 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,452 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,453 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,454 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,455 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,456 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,458 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,459 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,460 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,461 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,462 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,463 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,464 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,465 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,467 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,468 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,469 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,470 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,471 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,472 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,473 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,474 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,475 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,477 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,477 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,478 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,479 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,481 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,482 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,482 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,484 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,485 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,486 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,487 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,488 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,489 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,490 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,491 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,492 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,493 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,494 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,496 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,497 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,498 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,499 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 10:47:56,500 [9] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-09 11:22:47,262 [9] ERROR SharePointListCopy.Program [(null)] - Exception in main
+System.IO.IOException: The process cannot access the file 'C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\Export\~$PipeLine011520160754.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at SharePointListCopy.UpdatePipelineList..ctor(String clientContextWeb, String backupListTarget) in C:\development\captureportal\SharePointListCopy\SharePointListCopy\UpdatePipelineList.cs:line 46
+   at SharePointListCopy.Program.Main(String[] args) in C:\development\captureportal\SharePointListCopy\SharePointListCopy\Program.cs:line 54
+2016-02-09 11:23:21,292 [9] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hp.com/teams/USPS_CandI_CapturePortal/  target backup:PipelineBackup  source backup Pipeline
+2016-02-09 11:24:09,060 [9] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hp.com/teams/USPS_CandI_CapturePortal/  target backup:PipelineBackup  source backup Pipeline
+2016-02-09 11:24:13,403 [9] ERROR SharePointListCopy.Program [(null)] - Exception in main
+System.IO.IOException: The process cannot access the file 'C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\Export\~$PipeLine011520160754.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at SharePointListCopy.UpdatePipelineList..ctor(String clientContextWeb, String backupListTarget) in C:\development\captureportal\SharePointListCopy\SharePointListCopy\UpdatePipelineList.cs:line 46
+   at SharePointListCopy.Program.Main(String[] args) in C:\development\captureportal\SharePointListCopy\SharePointListCopy\Program.cs:line 54
+2016-02-09 11:24:28,964 [9] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hp.com/teams/USPS_CandI_CapturePortal/  target backup:PipelineBackup  source backup Pipeline
+2016-02-09 11:24:31,568 [9] ERROR SharePointListCopy.Program [(null)] - Exception in main
+System.IO.IOException: The process cannot access the file 'C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\Export\~$PipeLine011520160754.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at SharePointListCopy.UpdatePipelineList..ctor(String clientContextWeb, String backupListTarget) in C:\development\captureportal\SharePointListCopy\SharePointListCopy\UpdatePipelineList.cs:line 46
+   at SharePointListCopy.Program.Main(String[] args) in C:\development\captureportal\SharePointListCopy\SharePointListCopy\Program.cs:line 54
+2016-02-09 11:24:47,979 [10] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hp.com/teams/USPS_CandI_CapturePortal/  target backup:PipelineBackup  source backup Pipeline
+2016-02-12 15:21:10,433 [10] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hp.com/teams/USPS_CandI_CapturePortal/  target backup:PipelineBackup  source backup Pipeline
+2016-02-12 15:27:49,501 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,505 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,560 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,562 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,566 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,575 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,578 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,581 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,584 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,590 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,593 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,598 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,600 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,600 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,601 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,602 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,604 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,605 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,607 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,610 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,611 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,612 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,614 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,615 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,616 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,619 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,620 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,620 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,621 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,623 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,624 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,625 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,627 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,628 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,629 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,629 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,632 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,633 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,633 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,635 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,636 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,637 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,638 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,640 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,640 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,641 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,643 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,644 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,645 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,645 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-02-12 15:27:49,648 [10] DEBUG SharePointListCopy.BackupHelper [(null)] - added item:Field Name:Title
+2016-03-14 18:57:07,705 [9] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hp.com/teams/USPS_CandI_CapturePortal/  target backup:PipelineBackup  source backup Pipeline
+2016-03-14 18:58:09,220 [9] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hp.com/teams/USPS_CandI_CapturePortal/  target backup:PipelineBackup  source backup Pipeline
+2016-03-15 08:37:06,589 [8] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/  target backup:PipelineBackup  source backup Pipeline
