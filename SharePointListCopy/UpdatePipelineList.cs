@@ -92,7 +92,7 @@ namespace SharePointListCopy
 
 
                 List oldList = web.Lists.GetByTitle(backupListTarget);
-                CamlQuery query = CamlQuery.CreateAllItemsQuery(1000);
+                CamlQuery query = CamlQuery.CreateAllItemsQuery(2000);
                 ListItemCollection oldItems = oldList.GetItems(query);
 
                 clientContext.Load(oldItems);

@@ -98,10 +98,18 @@ namespace SharePointListCopy
 
                                 if (Array.IndexOf(badTitleArray, f.InternalName) < 0 && !f.ReadOnlyField)
                                 {
-                                    dr[f.Title] = item[f.InternalName];
+                                    try
+                                    {
+                                        dr[f.Title] = item[f.InternalName];
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        log.Debug("found a problem with field");
+                                    }
+                                    
                                 }
 
-
+                                
                             }
 
                             dt.Rows.Add(dr);
@@ -167,6 +175,7 @@ namespace SharePointListCopy
 
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("The file was successfully saved and we are about to copy lists");
+
 
 
                         foreach (ListItem item in newItems)
@@ -235,12 +244,17 @@ namespace SharePointListCopy
                             Console.WriteLine("Connectivity was lost please try again");
                             // throw ex;
                         }
+
+                  
+
+
                     }
                     catch (Exception ex)
                     {
                         Console.WriteLine(ex.Message);
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine(string.Format("We had an issue:{0}", ex.ToString()));
+                        Console.WriteLine(string.Format("We had an issue Please record, exit and try again:{0}", ex.ToString()));
+                        Console.ReadLine();
                     }
 
                 }

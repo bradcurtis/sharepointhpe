@@ -57,7 +57,7 @@ namespace SharePointListCopy
                 {
                     BackupHelper helper = new BackupHelper(clientContextWeb, backupListTarget, backupListSource, pipelineBackupDocLib);
                 }
-                else if (itest==2 || itest == 3)
+                 if (itest==2 || itest == 3)
                 {
                     UpdatePipelineList updatelist = new UpdatePipelineList(clientContextWeb, updateList);
                 }
