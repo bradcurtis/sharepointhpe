@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Navigation" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Navigation" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x01007cb815b7cd6540c0912eef9718bae997" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{1aa4afc1-36f3-4302-a24b-a3afb8185603}" Name="LinkOrder" /><FieldRef ID="{a25512d4-850e-496b-ba40-b2b2a0f83079}" Name="ShowMenuItem" /><FieldRef ID="{b2b4d872-5822-447f-903a-d0032b9b7d92}" Name="ParentMenu" /><FieldRef ID="{b9eaaa8d-3161-434a-8c5f-cf4588b1862b}" Name="OpenNewWindow" /><FieldRef ID="{e5520cc5-321b-4431-8cbc-2d35267623c1}" Name="LinkURL" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="Title" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="LinkOrder" ID="{1aa4afc1-36f3-4302-a24b-a3afb8185603}" DisplayName="Link Order" Type="Number" /><Field Name="ShowMenuItem" ID="{a25512d4-850e-496b-ba40-b2b2a0f83079}" DisplayName="Show Menu Item" Type="Choice" /><Field Name="ParentMenu" ID="{b2b4d872-5822-447f-903a-d0032b9b7d92}" DisplayName="Parent Menu" Type="Lookup" /><Field Name="OpenNewWindow" ID="{b9eaaa8d-3161-434a-8c5f-cf4588b1862b}" DisplayName="Open New Window" Type="Choice" /><Field Name="LinkURL" ID="{e5520cc5-321b-4431-8cbc-2d35267623c1}" DisplayName="Link URL" Type="Text" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="LinkOrder" /><FieldRef Name="ShowMenuItem" /><FieldRef Name="ParentMenu" /><FieldRef Name="OpenNewWindow" /><FieldRef Name="LinkURL" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>
