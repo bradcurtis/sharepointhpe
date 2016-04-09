@@ -145,10 +145,12 @@ namespace TopNav.TopNav
             this.ChromeType = PartChromeType.None;
             string text = this._MenuList + "spCustomMenu";
             AspMenu aspMenu = new AspMenu();
+            //aspMenu.Orientation = Orientation.Vertical;
             SPWeb sPWeb = null;
             try
             {
                 aspMenu.UseSimpleRendering = true;
+
                 aspMenu.CssClass = "spNavigation";
                 if (this.Set_TopNavigationMenu.ToLower() != "yes" && this.Set_TopNavigationMenu.ToLower() != "no")
                 {
