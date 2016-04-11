@@ -36,8 +36,8 @@ namespace TopNav
                 return base.GetChildNodes(pNode);
             }
             SiteMapNode childNodeNew = new SiteMapNode(this,
-                                                            "&lt;http://www.helpmeonsharepoint.com&gt;", "http://www.helpmeonsharepoint.com",
-                                                            "Help Me On SharePoint");
+                                                            "github", "http://www.github.com",
+                                                            "git hub link");
 
             return new SiteMapNodeCollection(childNodeNew);
         }
