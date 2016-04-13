@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="e39844f9-9dd6-4c94-b05c-443b4762e62d" solutionId="e39844f9-9dd6-4c94-b05c-443b4762e62d" resetWebServer="false" sharePointProductVersion="15.0" name="TopNav" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
   <features>
-    <featureReference itemId="ba8a0b84-eea2-48f8-a821-6bb85fbaac8a" />
-    <featureReference itemId="9fce257a-6caa-4f06-bcd0-fbbc483257da" />
+    <featureReference itemId="492db8f2-b463-4b17-ae35-763fcb0eae25" />
+    <featureReference itemId="ef45da4f-6cc3-4912-bdaf-bfab041c39b6" />
   </features>
 </package>

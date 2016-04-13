@@ -14,10 +14,14 @@ namespace TopNav.Features.Feature1
     /// The GUID attached to this class may be used during packaging and should not be modified.
     /// </remarks>
 
-    [Guid("3bc40425-2872-4abf-b57e-b64094d56a6a")]
+    [Guid("77f4f978-4319-4b43-aca0-a919416f4822")]
     public class Feature1EventReceiver : SPFeatureReceiver
     {
         // Uncomment the method below to handle the event raised after a feature has been activated.
+
+        //public override void FeatureActivated(SPFeatureReceiverProperties properties)
+        //{
+        //}
 
         public override void FeatureActivated(SPFeatureReceiverProperties properties)
         {
@@ -89,8 +93,6 @@ namespace TopNav.Features.Feature1
                 throw;
             }
         }
-
-
         // Uncomment the method below to handle the event raised before a feature is deactivated.
 
         //public override void FeatureDeactivating(SPFeatureReceiverProperties properties)

@@ -71,23 +71,29 @@
       <SharePointProjectItemId>{c2a7d947-f2af-49b0-8ed5-cbac6484dc0a}</SharePointProjectItemId>
     </None>
     <None Include="Features\Feature1\Feature1.feature">
-      <FeatureId>{9fce257a-6caa-4f06-bcd0-fbbc483257da}</FeatureId>
+      <FeatureId>{492db8f2-b463-4b17-ae35-763fcb0eae25}</FeatureId>
     </None>
     <None Include="Features\Feature2\Feature2.feature">
-      <FeatureId>{ba8a0b84-eea2-48f8-a821-6bb85fbaac8a}</FeatureId>
+      <FeatureId>{ef45da4f-6cc3-4912-bdaf-bfab041c39b6}</FeatureId>
     </None>
     <None Include="key.snk" />
-    <None Include="Navigation\NavigationInstance\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{7b5c2872-f272-4eac-a07f-00a88a6eec2e}</SharePointProjectItemId>
+    <None Include="NavList\NavListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ccf1b2c9-3af6-4a2e-8db3-164d9cf0044d}</SharePointProjectItemId>
     </None>
-    <None Include="Navigation\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{5aece51b-c796-42e5-824a-5cb72dd802c5}</SharePointProjectItemId>
+    <None Include="NavList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9366032f-83fa-49a9-b54e-38897b4a53e1}</SharePointProjectItemId>
     </None>
     <None Include="Package\Package.package">
       <PackageId>{e39844f9-9dd6-4c94-b05c-443b4762e62d}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="SiteMapProvider\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bd7b840a-a643-499c-8c39-5a0961053fdc}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteMapProvider\SiteMapProviderInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7165f793-adab-41fa-8fe0-96fd99695416}</SharePointProjectItemId>
     </None>
     <None Include="Timer\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{13410ec5-d75a-419f-8459-a48fb940c5cf}</SharePointProjectItemId>
@@ -99,22 +105,19 @@
     <None Include="TopNav\TopNav.webpart" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Features\Feature1\Resources.resx" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="EmptyElement1\Elements.xml" />
-    <Content Include="Features\Feature1\Elements.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Features\Feature1\Feature1.Template.xml">
       <DependentUpon>Feature1.feature</DependentUpon>
     </Content>
     <Content Include="Features\Feature2\Feature2.Template.xml">
       <DependentUpon>Feature2.feature</DependentUpon>
     </Content>
-    <Content Include="Navigation\Elements.xml" />
-    <Content Include="Navigation\NavigationInstance\Elements.xml" />
-    <Content Include="Navigation\Schema.xml" />
+    <Content Include="NavList\Elements.xml" />
+    <Content Include="NavList\NavListInstance\Elements.xml" />
+    <Content Include="NavList\Schema.xml" />
+    <Content Include="SiteMapProvider\Elements.xml" />
+    <Content Include="SiteMapProvider\Schema.xml" />
+    <Content Include="SiteMapProvider\SiteMapProviderInstance\Elements.xml" />
     <Content Include="Timer\Elements.xml" />
     <Content Include="TopNav\Elements.xml" />
   </ItemGroup>

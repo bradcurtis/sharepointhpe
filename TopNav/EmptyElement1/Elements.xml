@@ -7,7 +7,7 @@
     <Property Name="ID">topSiteMap</Property>
   </Control>
 </Elements>-->
-<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+ <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Control Sequence="30"
       Id="TopNavigationDataSource"
       ControlClass="System.Web.UI.WebControls.SiteMapDataSource"
@@ -17,4 +17,15 @@
     <Property Name="EnableViewState">false</Property>
     <Property Name="ShowStartingNode">true</Property>
   </Control>
+ <!--  <Control Sequence="30"
+      Id="QuickLaunchDataSource"
+      ControlClass="System.Web.UI.WebControls.SiteMapDataSource"
+      ControlAssembly="System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+     <Property Name="ID">QuickLaunchSiteMap</Property>
+     <Property Name="SiteMapProvider">MyCustomNavigationProvider</Property>
+     <Property Name="EnableViewState">false</Property>
+     <Property Name="ShowStartingNode">true</Property>
+   </Control>-->
 </Elements>
+  
+
