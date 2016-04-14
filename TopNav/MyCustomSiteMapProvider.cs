@@ -29,7 +29,7 @@ namespace TopNav
                                 {
                                     using (SPWeb web = site.RootWeb)
                                     {
-                                        SPList nav = web.GetList("/Lists/Navigation");
+                                        SPList nav = web.Lists["Navigation"];
                                         
                                         ULSLog2013.LogMessage("Found our list:" + nav.Title);
                                         SPQuery sPQuery = new SPQuery();
