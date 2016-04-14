@@ -33,7 +33,7 @@ namespace TopNav
                                         
                                         ULSLog2013.LogMessage("Found our list:" + nav.Title);
                                         SPQuery sPQuery = new SPQuery();
-                                        sPQuery.Query = "<OrderBy><FieldRef Name='Title' Ascending='True' /></OrderBy><Where><IsNull><FieldRef Name='ParentKey' /></IsNull></Where>";
+                                        sPQuery.Query = "<OrderBy><FieldRef Name='LinkOrder' Ascending='True' /><FieldRef Name='Title' Ascending='True' /></OrderBy><Where><IsNull><FieldRef Name='ParentKey' /></IsNull></Where>";
                                         SPListItemCollection items = nav.GetItems(sPQuery);
 
                                         foreach (SPListItem item in items)
@@ -68,7 +68,7 @@ namespace TopNav
         {
 
             SPQuery sPQuery = new SPQuery();
-            sPQuery.Query = "<OrderBy><FieldRef Name='Title' Ascending='True' /></OrderBy><Where><Eq><FieldRef Name=\"ParentKey\" /><Value Type=\"Text\">" + str + "</Value></Eq></Where>";
+            sPQuery.Query = "<OrderBy><FieldRef Name='LinkOrder' Ascending='True' /><FieldRef Name='Title' Ascending='True' /></OrderBy><Where><Eq><FieldRef Name=\"ParentKey\" /><Value Type=\"Text\">" + str + "</Value></Eq></Where>";
             SPListItemCollection itemschild = nav.GetItems(sPQuery);
 
             if (itemschild.Count > 0)
