@@ -1401,3 +1401,24 @@ Microsoft.SharePoint.Client.ServerException: Operation is not valid due to the c
 2016-04-04 14:11:25,468 [10] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/  target backup:PipelineBackup  source backup Pipeline
 2016-04-04 14:12:33,290 [9] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/  target backup:PipelineBackup  source backup Pipeline
 2016-04-04 14:38:15,075 [10] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/  target backup:PipelineBackup  source backup Pipeline
+2016-04-19 08:19:45,536 [9] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/  target backup:PipelineBackup  source backup Pipeline
+2016-04-19 08:30:05,883 [9] ERROR SharePointListCopy.BackupHelper [(null)] - caught and exception
+System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a receive. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Net.Security._SslStream.StartFrameHeader(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security._SslStream.StartReading(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security._SslStream.ProcessRead(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.TlsStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in C:\development\captureportal\SharePointListCopy\SharePointListCopy\BackupHelper.cs:line 212
+2016-04-19 08:40:01,336 [9] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/  target backup:PipelineBackup  source backup Pipeline
+2016-04-19 08:45:32,592 [8] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/  target backup:PipelineBackup  source backup Pipeline
+2016-04-19 09:31:43,761 [8] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/  target backup:PipelineBackup  source backup Pipeline

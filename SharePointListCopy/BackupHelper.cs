@@ -50,8 +50,8 @@ namespace SharePointListCopy
 
                         // This creates a CamlQuery that has a RowLimit of 100, and also specifies Scope="RecursiveAll" 
                         // so that it grabs all list items, regardless of the folder they are in. 
-                        CamlQuery query = CamlQuery.CreateAllItemsQuery(1000);
-                        CamlQuery newquery = CamlQuery.CreateAllItemsQuery(1000);
+                        CamlQuery query = CamlQuery.CreateAllItemsQuery(2000);
+                        CamlQuery newquery = CamlQuery.CreateAllItemsQuery(2000);
                         ListItemCollection oldItems = oldList.GetItems(query);
                         ListItemCollection newItems = newList.GetItems(newquery);
                         int counter = 0;
