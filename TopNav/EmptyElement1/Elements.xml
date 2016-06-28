@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Control Id="TopNavigationDataSource" Sequence="50"
+    ControlClass="TopNav.MyCustomSiteMapProvider"
+    ControlAssembly="TopNav, Version=1.0.0.0, Culture=neutral, PublicKeyToken=912f3c6491be12c2">
+    <Property Name="SiteMapProvider">SPNavigationProvider</Property>
+    <Property Name="ID">topSiteMap</Property>
+  </Control>
+</Elements>-->
+ <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Control Sequence="30"
+      Id="TopNavigationDataSource"
+      ControlClass="System.Web.UI.WebControls.SiteMapDataSource"
+      ControlAssembly="System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <Property Name="ID">topSiteMap</Property>
+    <Property Name="SiteMapProvider">MyCustomNavigationProvider</Property>
+    <Property Name="EnableViewState">false</Property>
+    <Property Name="ShowStartingNode">true</Property>
+  </Control>
+ <!--  <Control Sequence="30"
+      Id="QuickLaunchDataSource"
+      ControlClass="System.Web.UI.WebControls.SiteMapDataSource"
+      ControlAssembly="System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+     <Property Name="ID">QuickLaunchSiteMap</Property>
+     <Property Name="SiteMapProvider">MyCustomNavigationProvider</Property>
+     <Property Name="EnableViewState">false</Property>
+     <Property Name="ShowStartingNode">true</Property>
+   </Control>-->
+</Elements>
+  
+
